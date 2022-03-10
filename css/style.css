@@ -1,0 +1,118 @@
+/* reset page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Sofia", sans-serif;
+}
+html,
+body,
+.container {
+    width: 100%;
+    height: 100%;
+}
+.updatebar{
+    width: 100%;
+    height: 10%;
+    background-color: #353640;
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigationbar{
+    width: 100%;
+    height: 10%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.nav {
+    display: flex;
+}
+.navigationbar .nav ul{
+    display: flex;
+}
+.navigationbar .nav ul li{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.navigationbar .nav ul li:first-child{
+    padding-left: 0;
+}
+.navigationbar .nav ul li:last-child{
+    padding-right: 15px;
+}
+.navigationbar .nav ul li a{
+    text-decoration: none;
+    color: #A2A3A3;
+}
+.navigationbar p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navigationbar .nav button{
+    background-color: #005450;
+    color: #F8F8F8;
+    padding: 6px 10px;
+    border: none;
+}
+.section{
+    width: 100%;
+    height: calc(100% - (10% + 10%));
+    display: flex;
+}
+.mainpage-content{
+    width: 50%;
+    height: 100%;
+    background-color:#F8F8F8 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainpage-image{
+    width: 50%;
+    height:100%;
+    background-color: aqua;
+
+
+}
+.btn-group {
+    margin: 15px 0;
+}
+.layout-btn{
+    background-color: #005450;
+    border: 1px solid #005450;
+    padding: 10px;
+    color: #317572;
+    font-weight: inherit;
+    color: #FFFFFF;
+}
+.purchse-btn{
+    border: 1px solid #317572;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-left: 10px;
+    color: #317572;
+    font-weight: inherit;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.mainpage-image{
+    background-image: url("../images/right-banner.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
